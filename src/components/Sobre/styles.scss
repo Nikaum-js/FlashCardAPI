@@ -1,7 +1,8 @@
 .content {
-  margin: 2rem;
   padding: 5rem 10rem;
-  max-width: 1820px;
+  max-width: 1080px;
+  height: 100vh;
+  
 
   .conteudo {
     line-height: 1.7;
@@ -33,29 +34,25 @@
 
     .icon {
       display: flex;
-      margin: 1rem;
+      margin: 1rem 0;
 
       img {
         padding: 0 .9rem;
         width: 80px;
         cursor: pointer;
       }
+
       img:hover {
         transform: scale(1.1);
       }
     }
 
     .image {
-      justify-content: flex-end;
-      display: flex;
-
-      img {
-        position: absolute;
-        bottom: 60px;
-        flex-direction: row;
-        width: 550px;
-        height: 500px;
-      }
+      position: absolute;
+      right: 150px;
+      bottom: 70px;
+      width: 550px;
+      height: 500px;
     }
   }
 }

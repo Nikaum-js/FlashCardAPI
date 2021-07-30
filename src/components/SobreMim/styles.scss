@@ -1,0 +1,51 @@
+.Sobre {
+  background: linear-gradient(357deg,rgb(14 14 15),rgb(31 31 36));
+  max-width: 100%;
+  height: 700px;
+  display: flex;
+  padding: 5rem 4rem;
+
+  img {
+    width: 500px;
+    height: 500px;
+  }
+}
+
+.conteudo-sobre {
+  margin: 4rem 9rem;
+  padding: 0 1rem;
+  max-width: 800px; 
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+
+  h2 {
+    line-height: 3.25rem;
+    color: var(--gray-400);
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: ubuntu;
+    padding: 1rem 0;
+  }
+
+  h2::before {
+    content: '';
+    width: 5px;
+    height: 30px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 11px;
+    background: #28f5be;
+}
+
+
+  p {
+    text-align: justify; 
+    color: var(--gray-400);
+    font-size: 1.375rem;
+    line-height: 2.188rem;
+    font-weight: 500;
+    font-family: ubuntu;
+  }
+} 

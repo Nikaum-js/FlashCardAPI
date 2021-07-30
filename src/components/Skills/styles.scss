@@ -1,0 +1,44 @@
+.Skills{
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem 0;
+
+  .icones {
+    max-width: 500px;
+    margin: 0 12rem;
+
+    h2 {
+      line-height: 3.25rem;
+      color: var(--gray-400);
+      font-size: 2rem;
+      font-weight: 700;
+      font-family: ubuntu;
+      padding: 1rem 0;
+    }
+
+    h2::before {
+      content: '';
+      width: 5px;
+      height: 30px;
+      display: inline-flex;
+      position: absolute;
+      margin-left: -20px;
+      margin-top: 11px;
+      background: #28f5be;
+  }
+    
+    img {
+    // opacity: 0.6;
+    // filter: grayscale(100%);
+    width: 110px;
+    padding: .7rem
+    }
+
+  }
+
+  .Coding {
+    margin-right: 7rem;
+    width: 600px;
+    height: 600px;
+  }
+}
