@@ -9,7 +9,7 @@ import gitKraken from '../../assets/images/gitkraken.svg'
 import typescript from '../../assets/images/typescript.svg'
 import reactJs from '../../assets/images/reactjs.svg'
 import vscode from '../../assets/images/vscode.svg'
-import nextJs from '../../assets/images/nextjs-icon.svg'
+import sass from '../../assets/images/sass.svg'
 import figma from '../../assets/images/figma.svg'
 import nodeJs from '../../assets/images/nodejs-icon.svg'
 
@@ -30,7 +30,7 @@ export function Skills () {
         <img src={gitKraken} alt="" />
         <img src={typescript} alt="" />
         <img src={reactJs} alt="" />
-        <img src={nextJs} alt="" />
+        <img src={sass} alt="" />
         <img src={vscode} alt="" />
         <img src={figma} alt="" />
         <img src={nodeJs} alt="" />
