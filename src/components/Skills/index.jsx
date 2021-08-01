@@ -12,6 +12,10 @@ import vscode from '../../assets/images/vscode.svg'
 import sass from '../../assets/images/sass.svg'
 import figma from '../../assets/images/figma.svg'
 import nodeJs from '../../assets/images/nodejs-icon.svg'
+import github from '../../assets/images/github.svg'
+import php from '../../assets/images/php.svg'
+import nextJs from '../../assets/images/nextjs-icon.svg'
+import styled from '../../assets/images/styled.png'
 
 import './styles.scss'
 
@@ -34,6 +38,10 @@ export function Skills () {
         <img src={vscode} alt="" />
         <img src={figma} alt="" />
         <img src={nodeJs} alt="" />
+        <img src={php} alt="" />
+        <img src={github} alt="" />
+        <img src={nextJs} alt="" />
+        <img src={styled} alt="" />
         </div>
         <div className="Coding">
           <img src={Programing} alt="" />

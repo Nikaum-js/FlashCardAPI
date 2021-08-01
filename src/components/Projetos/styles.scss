@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  background: linear-gradient(357deg,rgb(14 14 15),rgb(31 31 36));
+
+  .content-card {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .card{
+      background: opacity($color: #fff);
+      margin: 2rem 2rem;
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+      border-radius: 46px;
+
+      @media screen and (min-width: 936px) {
+        .card {
+          margin-left: 3rem;
+        }
+      }
+
+      span {
+        padding: .2rem;
+        text-align: center; 
+        color: var(--gray-400);
+        font-size: 1.375rem;
+        line-height: 2.188rem;
+        font-weight: 500;
+        font-family: ubuntu;
+      }
+
+      img {
+        border-radius: 46px;
+        width: 100%;
+        padding: 1rem 0;
+      }
+    }
+  }
+}
