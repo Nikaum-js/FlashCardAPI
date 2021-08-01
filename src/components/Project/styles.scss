@@ -1,8 +1,33 @@
 .container {
+  padding: 5rem 0;
   display: flex;
   background: linear-gradient(357deg,rgb(14 14 15),rgb(31 31 36));
 
+  h2 {
+    position: absolute;
+    left: 192px;
+    display: flex;
+    line-height: 3.25rem;
+    color: var(--gray-400);
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: ubuntu;
+    padding: 1rem 0;
+  }
+
+  h2::before {
+    content: '';
+    width: 5px;
+    height: 30px;
+    display: inline-flex;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 11px;
+    background: #28f5be;
+}
+
   .content-card {
+    margin-top: 8rem;
     justify-content: center;
     display: flex;
     flex-direction: row;
@@ -15,18 +40,13 @@
       flex-direction: column;
       width: 400px;
       border-radius: 46px;
-
-      @media screen and (min-width: 936px) {
-        .card {
-          margin-left: 3rem;
-        }
-      }
+      transition: 0.2s;
 
       span {
         padding: .2rem;
         text-align: center; 
         color: var(--gray-400);
-        font-size: 1.375rem;
+        font-size: 1.575rem;
         line-height: 2.188rem;
         font-weight: 500;
         font-family: ubuntu;
@@ -37,6 +57,9 @@
         width: 100%;
         padding: 1rem 0;
       }
+    }
+    .card:hover {
+      transform: scale(1.1);
     }
   }
 }

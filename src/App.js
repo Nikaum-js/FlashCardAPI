@@ -1,17 +1,17 @@
 import { Header } from "./components/Header";
-import { Projetos } from "./components/Projetos";
+import { Project } from "./components/Project";
 import { Skills } from "./components/Skills";
-import { Sobre } from "./components/Sobre";
-import { SobreMim } from "./components/SobreMim";
+import { About } from "./components/About";
+import { AboutMe } from "./components/AboutMe";
 
 function App() {
   return (
   <>
     <Header/>
-    <Sobre/>
-    <SobreMim/>
+    <About/>
+    <AboutMe/>
     <Skills/>
-    <Projetos/>
+    <Project/>
   </>
   );
 }

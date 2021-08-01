@@ -6,11 +6,11 @@ import instagramIcon from '../../assets/images/instagram-icon.svg'
 import gmailIcon from '../../assets/images/gmail-icon.svg'
 import linkedinIcon from '../../assets/images/linkedin-icon.svg'
 
-export function Sobre () {
+export function About () {
   return (
   <>
-    <main className="content">
-      <div className="conteudo">
+    <main className="content-about">
+      <div className="about">
         <span>Olá, eu sou</span>
         <h2>Nikolas Santana</h2>
         <span id="final">Full-Stack Developer</span>

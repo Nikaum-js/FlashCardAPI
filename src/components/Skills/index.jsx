@@ -15,7 +15,7 @@ import nodeJs from '../../assets/images/nodejs-icon.svg'
 import github from '../../assets/images/github.svg'
 import php from '../../assets/images/php.svg'
 import nextJs from '../../assets/images/nextjs-icon.svg'
-import styled from '../../assets/images/styled.png'
+import StyledComponents from '../../assets/images/styled.png'
 
 import './styles.scss'
 
@@ -23,25 +23,24 @@ export function Skills () {
   return (
     <>
       <div className="Skills">
-
-        <div className="icones">
-         <h2>Skills</h2>
-        <img src={css} alt="icone" />
-        <img src={html} alt="" />
-        <img src={javascript} alt="" />
-        <img src={git} alt="" />
-        <img src={react} alt="" />
-        <img src={gitKraken} alt="" />
-        <img src={typescript} alt="" />
-        <img src={reactJs} alt="" />
-        <img src={sass} alt="" />
-        <img src={vscode} alt="" />
-        <img src={figma} alt="" />
-        <img src={nodeJs} alt="" />
-        <img src={php} alt="" />
-        <img src={github} alt="" />
-        <img src={nextJs} alt="" />
-        <img src={styled} alt="" />
+      <h2>Skills</h2>
+        <div className="icons">
+        <img src={css} alt="css" />
+        <img src={html} alt="html" />
+        <img src={javascript} alt="javascript" />
+        <img src={git} alt="git" />
+        <img src={react} alt="react" />
+        <img src={gitKraken} alt="gitKraken" />
+        <img src={typescript} alt="typescript" />
+        <img src={reactJs} alt="reactJs" />
+        <img src={sass} alt="sass" />
+        <img src={vscode} alt="vscode" />
+        <img src={figma} alt="figma" />
+        <img src={nodeJs} alt="nodejs" />
+        <img src={php} alt="php" />
+        <img src={github} alt="github" />
+        <img src={nextJs} alt="nextJs" />
+        <img src={StyledComponents} alt="StyledComponents" />
         </div>
         <div className="Coding">
           <img src={Programing} alt="" />
