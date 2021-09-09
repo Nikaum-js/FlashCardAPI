@@ -48,10 +48,6 @@ export function Project() {
             <img src={FlexBlog} alt="" />
           </div>
           <div className="card">
-            <span>Login</span>
-            <img src={Login} alt="" />
-          </div>
-          <div className="card">
             <span>Task</span>
             <img src={Task} alt="" />
           </div>
