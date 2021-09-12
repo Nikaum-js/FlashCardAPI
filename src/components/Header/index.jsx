@@ -1,21 +1,29 @@
-import { useState } from "react";
 import { Link } from "react-router-dom"
 
 import './styles.scss'
 
 export function Header () {
-    let [show, setShow] = useState();
 
+    //Professor infelizmente o Menu Hamburguer não está funcionando como eu queria
+    //E eu não tenho tempo e nem paciência pra tentar resolver esse Bug kkkkkkkkkk
+    //Estou a mais o menos 1 mês tentando fazer essa porcaria funcuinar e sempre me
+    //Aparece um erro diferente e mais chato de resolver :(
+    //Então por enquanto no MOBILE eu recomendo que você sempre que mudar de página
+    //Recarregar o navegador pro estado voltar ao normal e funcionar. 
+    //PS: esse código eu fiz pra site com HTML, CSS e JS puro. ele não funciona bem em ReactJs
     window.onload=function(){
+      let show = true;
+
       const menuSection = document.querySelector(".menu-section");
       const menuToggle = document.querySelector(".menu-toggle");
-      
-        menuToggle.addEventListener("click", () => {
 
-          document.body.style.overflow = setShow ? "hidden" : "initial";
+      menuToggle.addEventListener("click", () => {
 
-          menuSection.classList.toggle("on", show);
-        })
+        document.body.style.overflow = show ? "hidden" : "initial";
+
+        menuSection.classList.toggle("on", show);
+        show = !show;
+      })
     }
 
   return (
