@@ -12,14 +12,13 @@ import vscode from '../../assets/images/vscode.svg'
 import sass from '../../assets/images/sass.svg'
 import figma from '../../assets/images/figma.svg'
 import nodeJs from '../../assets/images/nodejs-icon.svg'
-import github from '../../assets/images/github.svg'
 import php from '../../assets/images/php.svg'
 import nextJs from '../../assets/images/nextjs-icon.svg'
 import StyledComponents from '../../assets/images/styled.png'
 
 import './styles.scss'
 
-export function Skills () {
+export function SkillsComponent () {
   return (
     <>
       <div className="Skills">
@@ -38,7 +37,6 @@ export function Skills () {
         <img src={figma} alt="figma" />
         <img src={nodeJs} alt="nodejs" />
         <img src={php} alt="php" />
-        <img src={github} alt="github" />
         <img src={nextJs} alt="nextJs" />
         <img src={StyledComponents} alt="StyledComponents" />
         </div>

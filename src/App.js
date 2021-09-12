@@ -1,17 +1,20 @@
-import { Header } from "./components/Header";
-import { Project } from "./components/Project";
-import { Skills } from "./components/Skills";
-import { About } from "./components/About";
-import { AboutMe } from "./components/AboutMe";
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { AboutMe } from './pages/AboutMe';
+import { Home } from './pages/Home';
+import { Projects } from './pages/Projects';
+import { Skills } from './pages/Skills';
 
 function App() {
   return (
   <>
-    <Header/>
-    <About/>
-    <AboutMe/>
-    <Skills/>
-    <Project/>
+    <BrowserRouter>
+     <Switch>
+      <Route component={Home} path="/" exact />
+      <Route component={AboutMe} path="/aboutme"/>
+      <Route component={Skills} path="/skills"/>
+      <Route component={Projects} path="/projects"/>
+     </Switch>
+    </BrowserRouter>
   </>
   );
 }

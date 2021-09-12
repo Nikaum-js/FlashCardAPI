@@ -2,7 +2,7 @@ import './styles.scss'
 
 import Sobre from '../../assets/images/Sobre.svg'
 
-export function AboutMe () {
+export function AboutMeComponent () {
   return (
     <>
       <div className="about-me">

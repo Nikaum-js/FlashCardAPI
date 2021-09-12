@@ -1,7 +1,7 @@
 .Skills{
   display: flex;
   justify-content: space-between;
-  margin: 5rem 0;
+  height: 80vh;
 
   h2 {
     line-height: 3.25rem;
@@ -29,14 +29,15 @@
     margin-top: 7rem;
     display: flex;
     flex-wrap: wrap;
-    max-width: 500px;
+    width: 500px;
     margin-left: 12rem;
     
     img {
     // opacity: 0.6;
     // filter: grayscale(100%);
-    width: 110px;
-    padding: .4rem
+    width: 100px;
+    height: 100px;
+    padding: .3rem
     }
 
   }
@@ -44,7 +45,7 @@
   .Coding {
     img {
       margin-right: 5rem;
-      margin-top: 4rem;
+      margin-top: 2rem;
       width: 600px;
       height: 600px;
     }
