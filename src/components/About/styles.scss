@@ -56,3 +56,33 @@
     }
   }
 }
+
+@media (max-width: 1280px) {
+  .about {
+
+    .image {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 520px) {
+    .content-about {
+
+      .icon {
+        
+
+        img {
+          display: none;
+        }
+      }
+    }
+  }
+
+@media (max-width: 405px) {
+  .content-about {
+    padding: 5rem 5rem;
+    max-width: 1080px;
+    height: 80vh;
+  }
+}

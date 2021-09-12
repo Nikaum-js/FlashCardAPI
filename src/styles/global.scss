@@ -21,7 +21,19 @@
 
 @media (max-width: 720px) {
   html {
-    font-size: 87.5%;
+    font-size: 80.5%;
+}
+}
+
+@media (max-width: 620px) {
+  html {
+    font-size: 74.75%;
+  }
+}
+
+@media (max-width: 520px) {
+  html {
+    font-size: 67.5%;
 }
 }
 

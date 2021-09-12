@@ -2,7 +2,7 @@
   max-width: 100%;
   display: flex;
   padding: 5rem 4rem;
-  height: 80vh;
+  height: 100vh;
 
   img {
     width: 500px;
@@ -48,3 +48,59 @@
     font-family: ubuntu;
   }
 } 
+
+@media (max-width: 1120px) {
+  .about-me {
+    
+    
+    img {
+      margin-top: 7rem;
+      width: 300px;
+      height: 300px;
+    }
+  }
+
+  .content-about-me {
+    h2 {
+      font-size: 2rem;
+    }
+}
+}
+
+@media (max-width: 910px) {
+  .about-me {
+    
+    
+    img {
+      display: none;
+    }
+  }
+  .content-about-me {
+    h2 {
+      font-size: 2rem;
+    }
+}
+}
+
+@media (max-width: 500px) {
+  .content-about-me {
+  
+    h2::before {
+      content: '';
+      width: 5px;
+      height: 30px;
+      display: inline-flex;
+      position: absolute;
+      margin-left: -20px;
+      margin-top: 1px;
+      background: #28f5be;
+  }
+}
+}
+
+@media (max-width: 372px) {
+  .content-about-me {
+    max-width: 700px;
+    margin: 4rem 0;
+  }  
+}
