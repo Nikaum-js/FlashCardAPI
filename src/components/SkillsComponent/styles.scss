@@ -1,7 +1,8 @@
 .Skills{
   display: flex;
   justify-content: space-between;
-  height: 80vh;
+  height: 100vh;
+  width: 100%;
 
   h2 {
     line-height: 3.25rem;
@@ -39,7 +40,6 @@
     height: 100px;
     padding: .3rem
     }
-
   }
 
   .Coding {
@@ -51,3 +51,99 @@
     }
   }
 }
+
+@media (max-width: 1192px) {
+  .Skills {
+
+    .icons {
+      margin-top: -2rem;
+      width: 600px;
+      padding: 8rem;
+      margin-left: 5rem;
+      
+      img {
+      width: 70px;
+      height: 70px;
+      }
+    }
+  
+    .Coding {
+      
+      img {
+        margin-right: 5rem;
+        margin-top: 8rem;
+        width: 400px;
+        height: 400px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1016px) {
+  .Skills {
+
+    .icons {
+      margin: 4rem 0;
+      margin-left: 5rem;
+      
+      img {
+      width: 50px;
+      height: 50px;
+      }
+    }
+  
+    .Coding {
+      
+      img {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .Skills {
+
+    .icons {
+      margin-left: 5rem;
+      margin-top: -1rem;
+      
+      img {
+      width: 70px;
+      height: 70px;
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .Skills{
+    display: flex;
+    justify-content: center;
+    margin-left: -3rem;
+
+    h2 {
+      margin-left: -6rem;
+    }
+
+    h2::before {
+      content: '';
+      width: 5px;
+      height: 30px;
+      display: inline-flex;
+      position: absolute;
+      margin-left: -20px;
+      margin-top: 2px;
+      background: #28f5be;
+  }
+
+    .icons {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+}
+
+

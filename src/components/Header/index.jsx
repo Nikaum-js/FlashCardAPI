@@ -1,22 +1,22 @@
+import { useState } from "react";
 import { Link } from "react-router-dom"
 
 import './styles.scss'
 
 export function Header () {
-  window.onload=function(){
-    let show = true;
+    let [show, setShow] = useState();
 
-    const menuSection = document.querySelector(".menu-section");
-    const menuToggle = document.querySelector(".menu-toggle");
-    
-      menuToggle.addEventListener("click", () => {
+    window.onload=function(){
+      const menuSection = document.querySelector(".menu-section");
+      const menuToggle = document.querySelector(".menu-toggle");
+      
+        menuToggle.addEventListener("click", () => {
 
-        document.body.style.overflow = show ? "hidden" : "initial";
+          document.body.style.overflow = setShow ? "hidden" : "initial";
 
-        menuSection.classList.toggle("on", show);
-        show = !show;
-      })
-}
+          menuSection.classList.toggle("on", show);
+        })
+    }
 
   return (
     <main className="Navbar">
