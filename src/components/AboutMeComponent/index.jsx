@@ -1,12 +1,10 @@
 import './styles.scss'
 
-import Sobre from '../../assets/images/Sobre.svg'
-
 export function AboutMeComponent () {
   return (
     <>
       <div className="about-me">
-        <img src={Sobre} alt="" />
+        {/* <img src={Sobre} alt="" /> */}
 
       <div className="content-about-me">
         <h2>Sobre mim </h2>

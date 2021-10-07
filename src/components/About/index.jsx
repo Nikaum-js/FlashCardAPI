@@ -1,28 +1,19 @@
 import './styles.scss'
 
-import Coding from '../../assets/images/Coding.svg'
-import GithubIcon from '../../assets/images/github-icon.svg'
-import instagramIcon from '../../assets/images/instagram-icon.svg'
-import gmailIcon from '../../assets/images/gmail-icon.svg'
-import linkedinIcon from '../../assets/images/linkedin-icon.svg'
+import teacherImg from '../../assets/images/Teacher.svg'
 
 export function About () {
   return (
   <>
     <main className="content-about">
       <div className="about">
-        <span>Olá, eu sou</span>
-        <h2>Nikolas Santana</h2>
-        <span id="final">Full-Stack Developer</span>
+        <span>Project FlashCards</span>
+        <h2>Feito por Nikolas Santana</h2>
+        <span id="final">Explore a página cursos :)</span>
 
-        <div className="icon"> 
-          <a href="https://github.com/Nikolas-as"><img src={GithubIcon} alt="github" /> </a>
-          <a href="https://www.instagram.com/nikolas.dev/"><img src={instagramIcon} alt="instagram" /></a>
-          <a href="https://www.linkedin.com/in/nikolas-santana-0a00091a7/"> <img src={linkedinIcon} alt="linkedin"/></a>
-          <a href="mailto:nikolasdssantana@gmail.com"> <img src={gmailIcon} alt="gmail"/></a>    
-        </div>
+
         <div className="image">
-          <img src={ Coding } alt="programando" />
+          <img src={ teacherImg } alt="teacher" />
         </div>
       </div>
     </main>
