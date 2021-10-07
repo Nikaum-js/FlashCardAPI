@@ -6,6 +6,7 @@ export function AboutMeComponent () {
       <div className="about-me">
         {/* <img src={Sobre} alt="" /> */}
 
+
       <div className="content-about-me">
         <h2>Sobre mim </h2>
         <p>
